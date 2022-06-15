@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #000;
+    background-image: url('../assets/assets/blur-2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    margin-top: 20px;
+}
+nav {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    color: #fff;
+}
+.menus {
+    display: flex;
+    color: #fff;
+}
+
+.menus li {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+.menus li:hover {
+    border: 1px solid #8257E5;
+    cursor: pointer;
+}
+
+.btn {
+    width: 200px;
+    text-align: center;
+    font-family: Manrope;
+    border: 1px solid #8257E5;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #8257E5;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 5rem;
+    color: #fff;
+}
+.titulo-code {
+    font-size: 5rem;
+    text-shadow: -1px -1px 0 #8257E5, 1px -1px 0 #8257E5, -1px 1px 0 #8257E5, 1px 1px 0 #8257E5;
+}
